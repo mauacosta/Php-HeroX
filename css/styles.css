@@ -1,0 +1,44 @@
+#heroxlogo{
+    height: 5vw;
+    padding: 1vw 3vw;
+}
+
+.other{
+    display: none;
+}
+
+.collTitle{
+    font-size: 3vw;
+}
+
+.collIcon span{
+    font-size: 3vw;
+}
+
+.collArtist{
+    padding-top: 2vw !important;
+}
+
+.collArtist span{
+    font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+    .collTitle, .collIcon{
+        font-size: initial;
+    }
+    
+    .collArtist{
+        font-size: small;
+    }
+    #heroxlogo{
+        height: 15vw;
+        left: 25% !important;
+    }
+    
+    .collTime{
+        height: smaller;
+        opacity: 60%;
+    }
+}
+}
